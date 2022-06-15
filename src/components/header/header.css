@@ -3,7 +3,22 @@ header{
     padding-top: 7rem;
     overflow: hidden;
 }
+.btn{
+	width: max-content;
+	display: inline-block;
+	color: var(--color-primary);
+	padding: 0.75rem 1.2rem;
+	border-radius: 0.4rem;
+	border: 1px solid var(--color-primary);
+	transition: var(--transition);
+}
 
+.btn:hover{
+	background-color: var(--color-white);
+	color: var(--color-bg);
+	border-color: transparent;
+	cursor: pointer;
+}
 .header__container{
     text-align: center;
     height: 100%;
