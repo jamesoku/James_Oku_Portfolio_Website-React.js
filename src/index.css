@@ -10,6 +10,8 @@
     text-decoration: none;
 }
 
+
+
 :root{
     --color-bg: #1f1f38;
     --color-bg-variant:#2c2c6c;
@@ -124,11 +126,11 @@ h1{
 
 }
 
-section{
-	margin-top: 8rem;
-	height: 100vh;
-}
 
+
+small{
+	color: var(--color-light);
+}
 section > h2, 
 section > h5{
 	text-align: center;
@@ -186,15 +188,13 @@ img{
 @media screen and (max-width: 1024px) {
 	.container{
 		width: var(--container-width-mg);
-
 	}
 
-	section{
-		margin-top: 6rem;
-	}
+	
+	
 }
 	
-/* Media query screen(medium devices) */
+/* Media query screen(small devices) */
 @media screen and (max-width: 600px) {
 	.container{
 		width: var(--container-width-ms);
@@ -202,8 +202,11 @@ img{
 	}
 
 	section > h2{
-		margin-top: 2rem;
+		margin-top: 0.1rem;
 	}
+	
+	
+	
 }
 
 
