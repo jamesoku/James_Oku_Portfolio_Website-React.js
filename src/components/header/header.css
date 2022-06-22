@@ -58,6 +58,7 @@ header{
     left: calc(50% - 9rem);
     z-index: -1;
     margin-top: 4rem;
+    border: 2px solid var(--color-primary);
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
 }
@@ -72,20 +73,30 @@ header{
 
 /* Media query screen(medium devices) */
 @media screen and (max-width: 1024px) {
-	.container{
-		height: 68vh;
+	header{
+        height: 100vh;
+    }
 
-	}
+    .me{
+        
+        left: calc(50% - 9rem);
+        
+    }
 
 	
 }
 	
 /* Media query screen(medium devices) */
 @media screen and (max-width: 600px) {
-	.container{
-		height: 100vh;
+	header{
+        height: 100vh;
+    }
 
-	}
+    .me{
+        
+        left: calc(50% - 9.8rem);
+        
+    }
 
     .scroll__down{
         display: none;

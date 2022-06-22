@@ -27,3 +27,19 @@
     margin: 0.8rem auto 0;
 }
 
+/* Media query screen(medium devices) */
+@media screen and (max-width: 1024px) {
+    .container.testimonials__container{
+		width: var(--container-width-lg);
+    }
+}
+	
+/* Media query screen(small devices) */
+@media screen and (max-width: 600px) {
+	.container.testimonials__container{
+		width: var(--container-width-ms);
+    }
+	
+	
+	
+}
