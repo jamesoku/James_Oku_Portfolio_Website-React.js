@@ -30,7 +30,7 @@ const contact = () => {
             <BsMessenger className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>James Oku</h5>
-            <a href="https://m.me/james.oku" target='_blank'>Send a message</a>
+            <a href="https://m.me/Okujame" target='_blank'>Send a message</a>
           </article>
           <article className="contact__option">
             <AiOutlineWhatsApp className='contact__option-icon'/>
