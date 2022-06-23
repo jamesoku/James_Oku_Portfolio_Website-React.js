@@ -33,10 +33,12 @@ const about = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Nisi ut inventore, quibusdam nobis sed at? Quos consequatur 
-            doloremque, velit nemo in, atque magnam maxime dolor perspici
-            atis maiores voluptatum libero architecto?</p>
+          <p>Hi there, My name is James Oku, and I am from Lagos, Nigeria. I am attending Brigham young
+             university-Idaho while studying software engineering with an emphasis on web 
+             development. I am passionate about Web development and coding because it makes me
+              show my creative skills, and I'm just happy doing something I love.</p>
+          <p>My other hobbies are soccer, forex trading, video creation/editing, hiking, 
+            and spending time with family. If you wish to know more about me, contact me below.</p>
 
           <a href = "#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
