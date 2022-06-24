@@ -7,6 +7,16 @@ import HeaderSocials from './HeaderSocials'
 const header = () => {
   return (
     <header>
+       <div class="animation-area">
+		<ul class="box-area">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>James Oku</h1>
