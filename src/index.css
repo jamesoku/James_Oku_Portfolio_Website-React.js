@@ -205,7 +205,11 @@ img{
 		margin-top: 0.1rem;
 	}
 	
+	.box-area {
+		display: none;
+	}
 	
+
 	
 }
 
