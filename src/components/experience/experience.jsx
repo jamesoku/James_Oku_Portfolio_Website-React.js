@@ -48,7 +48,7 @@ const experience = () => {
           <GoVerified className='experience__details-icon'/>
           <div>
           <h4>C++</h4>
-          <small>Intermidiate</small>
+          <small>Intermediate</small>
           </div>
           </article>
 
@@ -64,6 +64,14 @@ const experience = () => {
           <GoVerified className='experience__details-icon'/>
           <div>
           <h4>PHP</h4>
+          <small>Basic</small>
+          </div>
+          </article>
+
+          <article className='experience__details'>
+          <GoVerified className='experience__details-icon'/>
+          <div>
+          <h4>Typescript</h4>
           <small>Basic</small>
           </div>
           </article>
@@ -85,7 +93,7 @@ const experience = () => {
           <GoVerified className='experience__details-icon'/>
           <div>
           <h4>React.js</h4>
-          <small>Intermidiate</small>
+          <small>Intermediate</small>
           </div>
           </article>
 
@@ -93,7 +101,7 @@ const experience = () => {
           <GoVerified className='experience__details-icon'/>
           <div>
           <h4>Git</h4>
-          <small>Intermidiate</small>
+          <small>Intermediate</small>
           </div>
           </article>
 
@@ -108,14 +116,12 @@ const experience = () => {
           <article className='experience__details'>
           <GoVerified className='experience__details-icon'/>
           <div>
-          <h4>Ruby on Rails</h4>
-          <small>Basic</small>
+          <h4>Github</h4>
+          <small>Intermediate</small>
           </div>
           </article>
           </div>
 
-
-          
 
         </div>
       </div>
