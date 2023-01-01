@@ -4,21 +4,25 @@
     gap: 15%;
 }
 
-
 .about__me{
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, rgb(135, 56, 149),transparent);
+    background: linear-gradient(45deg, transparent, #6c676c,transparent);
     display: grid;
+    
     place-items: center;
+}
+.about_img{
+    transform: scale(1.9);
+    padding-top: 43%;
+    padding-left: 23%;
 }
 
 .about__me-image{
     clip-path: circle();
-    padding-top: 40px;
-    padding-right: 1.5px;
     overflow: hidden;
+    position: relative;
     transition: var(--transition);
     /* transform: rotate(10deg); */
 }
@@ -80,6 +84,7 @@
     .about__me{
         width: 50%;
         margin: 2rem auto 4rem;
+        
 
     }
 
@@ -94,6 +99,7 @@
 	.about__me{
         width: 65%;
         margin: 0 auto 3rem;
+        
 
     }
 
@@ -102,6 +108,7 @@
         gap: 1rem;
 
     }
+
     .about__content p{
         margin: 1.5rem 0;
         

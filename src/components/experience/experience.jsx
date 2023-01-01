@@ -15,7 +15,7 @@ import {SiGit} from 'react-icons/si'
 import {SiGithub} from 'react-icons/si'
 import {SiNodedotjs} from 'react-icons/si'
 import {SiDocker} from 'react-icons/si'
-import {SiJquery} from 'react-icons/si'
+import {SiExpress} from 'react-icons/si'
 
 
 
@@ -39,7 +39,7 @@ const experience = () => {
           <ImHtmlFive className='experience__details-icon'/>
           <div>
           <h4>HTML</h4>
-          <small>Experienced</small>
+          <small>Confident</small>
           </div>
           </article>
 
@@ -47,7 +47,7 @@ const experience = () => {
           <SiCss3 className='experience__details-icon'/>
           <div>
           <h4>CSS</h4>
-          <small>Intermediate</small>
+          <small>Confident</small>
           </div>
           </article>
 
@@ -55,7 +55,7 @@ const experience = () => {
           <SiJavascript className='experience__details-icon'/>
           <div>
           <h4>Javascript</h4>
-          <small>Intermediate</small>
+          <small>Confident</small>
           </div>
           </article>
 
@@ -63,15 +63,7 @@ const experience = () => {
           <SiPython className='experience__details-icon'/>
           <div>
           <h4>Python</h4>
-          <small>Intermidiate</small>
-          </div>
-          </article>
-
-          <article className='experience__details'>
-          <SiCplusplus className='experience__details-icon'/>
-          <div>
-          <h4>C++</h4>
-          <small>Intermediate</small>
+          <small>Confident</small>
           </div>
           </article>
 
@@ -79,7 +71,15 @@ const experience = () => {
           <SiTypescript className='experience__details-icon'/>
           <div>
           <h4>Typescript</h4>
-          <small>Intermediate</small>
+          <small>Confident</small>
+          </div>
+          </article>
+
+          <article className='experience__details'>
+          <SiCplusplus className='experience__details-icon'/>
+          <div>
+          <h4>C++</h4>
+          <small>Familiar</small>
           </div>
           </article>
 
@@ -87,7 +87,7 @@ const experience = () => {
           <SiKotlin className='experience__details-icon'/>
           <div>
           <h4>Kotlin</h4>
-          <small>Basic</small>
+          <small>Familiar</small>
           </div>
           </article>
 
@@ -95,7 +95,7 @@ const experience = () => {
           <TbBrandPhp className='experience__details-icon'/>
           <div>
           <h4>PHP</h4>
-          <small>Basic</small>
+          <small>Familiar</small>
           </div>
           </article>
 
@@ -112,7 +112,7 @@ const experience = () => {
           <SiAngular className='experience__details-icon'/>
           <div>
           <h4>Angular.js</h4>
-          <small>Intermediate</small>
+          <small>Confident</small>
           </div>
           </article>
 
@@ -120,7 +120,7 @@ const experience = () => {
           <SiReact className='experience__details-icon'/>
           <div>
           <h4>React.js</h4>
-          <small>Intermediate</small>
+          <small>Confident</small>
           </div>
           </article>
 
@@ -128,7 +128,7 @@ const experience = () => {
           <SiGit className='experience__details-icon'/>
           <div>
           <h4>Git</h4>
-          <small>Intermediate</small>
+          <small>Confident</small>
           </div>
           </article>
 
@@ -136,7 +136,15 @@ const experience = () => {
           <SiGithub className='experience__details-icon'/>
           <div>
           <h4>Github</h4>
-          <small>Intermediate</small>
+          <small>Confident</small>
+          </div>
+          </article>
+
+          <article className='experience__details'>
+          <SiExpress className='experience__details-icon'/>
+          <div>
+          <h4>Express.js</h4>
+          <small>Confident</small>
           </div>
           </article>
 
@@ -144,7 +152,7 @@ const experience = () => {
           <SiNodedotjs className='experience__details-icon'/>
           <div>
           <h4>Node.js</h4>
-          <small>Basic</small>
+          <small>Familiar</small>
           </div>
           </article>
 
@@ -152,18 +160,12 @@ const experience = () => {
           <SiDocker className='experience__details-icon'/>
           <div>
           <h4>Docker</h4>
-          <small>Basic</small>
+          <small>Familiar</small>
           </div>
           </article>
 
 
-          <article className='experience__details'>
-          <SiJquery className='experience__details-icon'/>
-          <div>
-          <h4>Jquery</h4>
-          <small>Basic</small>
-          </div>
-          </article>
+          
 
           </div>
 
