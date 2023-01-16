@@ -1,5 +1,6 @@
 .container.testimonials__container{
     width: 40%;
+    height: 22rem;
 }
 
 .client__avatar{
@@ -31,6 +32,7 @@
 @media screen and (max-width: 1024px) {
     .container.testimonials__container{
 		width: var(--container-width-lg);
+        height: 28rem;
     }
 }
 	
@@ -38,6 +40,7 @@
 @media screen and (max-width: 600px) {
 	.container.testimonials__container{
 		width: var(--container-width-ms);
+        height: 28rem;
     }
 	
 	

@@ -16,8 +16,8 @@ import {SiGithub} from 'react-icons/si'
 import {SiNodedotjs} from 'react-icons/si'
 import {SiDocker} from 'react-icons/si'
 import {SiJquery} from 'react-icons/si'
-
-
+import {SiExpress} from 'react-icons/si'
+import {DiMysql} from 'react-icons/di'
 
 
 
@@ -87,7 +87,15 @@ const experience = () => {
           <SiKotlin className='experience__details-icon'/>
           <div>
           <h4>Kotlin</h4>
-          <small>Basic</small>
+          <small>Familiar</small>
+          </div>
+          </article>
+
+          <article className='experience__details'>
+          <DiMysql className='experience__details-icon'/>
+          <div>
+          <h4>SQL</h4>
+          <small>Familiar</small>
           </div>
           </article>
 
@@ -107,7 +115,6 @@ const experience = () => {
           <h3>Technologies</h3>
           
           <div className='experience__content2'>
-          
           <article className='experience__details'>
           <SiAngular className='experience__details-icon'/>
           <div>
