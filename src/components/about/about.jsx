@@ -1,6 +1,6 @@
 import React from 'react'
 import'./about.css'
-import ME from '../../assets/Me2.jpg'
+import ME from '../../assets/Me3.JPG'
 import {BsAwardFill} from 'react-icons/bs'
 import {BsFolderCheck} from 'react-icons/bs'
 
@@ -14,7 +14,7 @@ const about = () => {
       <div className="container about__container">
         <div className='about__me'>
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img className='about_img' src={ME} alt="About Image" />
           </div>
         </div>
 
@@ -23,7 +23,7 @@ const about = () => {
             <article className='about__card'>
               <BsAwardFill className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ years Coding</small>
+              <small>4+ years Coding</small>
             </article>
           
             <article className='about__card'>
@@ -33,12 +33,13 @@ const about = () => {
             </article>
           </div>
 
-          <p>Hi there, My name is James Oku, and I am from Lagos, Nigeria. I am attending Brigham young
-             university-Idaho while studying software engineering with an emphasis on web 
-             development. I am passionate about Web development and coding because it makes me
-              show my creative skills, and I'm just happy doing something I love.</p>
-          <p>My other hobbies are soccer, forex trading, video creation/editing, hiking, 
-            and spending time with family. If you wish to know more about me, contact me below.</p>
+          <p>Hi there, My name is James Oku, and I am a full stack developer from Lagos, Nigeria.
+             I received my education at Brigham Young University Idaho (BYUI) and have developed 
+             a well-rounded skill set in front-end and back-end development. I love web development
+              and enjoy creating dynamic and interactive websites.</p>
+          <p>In my free time, I enjoy a variety of hobbies like soccer, forex trading, video creation
+             and editing, hiking, and spending time with my family. James is a well-rounded individual
+              with a wide range of interests and talents.</p>
 
           <a href = "#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
